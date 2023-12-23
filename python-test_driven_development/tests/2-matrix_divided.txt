@@ -28,7 +28,7 @@ Test:
     >>> matrix = [[1, 2, "three"], [4,5]]
     >>> matrix_divided(matrix, 2)
     Traceback (most recent call last):
-    TypeErro: matrix must be a matrix (list of lists) of integers/floats
+    TypeError: matrix must be a matrix (list of lists) of integers/floats
 
     >>> matrix_divided([[3, 4]])
     Traceback (most recent call last):
