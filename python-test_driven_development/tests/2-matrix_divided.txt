@@ -25,11 +25,10 @@ Test:
     >>> matrix_divided([[2, 3], [4, 5]], float('inf'))
     [[0.0, 0.0], [0.0, 0.0]]
 
-    >>> matrix = [[1, 2, 3]]
-    >>> matrix_divided(matrix, 3)
-    [[0.33, 0.67, 1.0]]
-    >>> print(matrix)
-    [[1, 2, 3]]
+    5>>> matrix = [[1, 2, "three"], [4,5]]
+    >>> matrix_divided(matrix, 2)
+    Traceback (most recent call last):
+    TypeErro: matrix must be a matrix (list of lists) of integers/floats
 
     >>> matrix_divided([[3, 4]])
     Traceback (most recent call last):
