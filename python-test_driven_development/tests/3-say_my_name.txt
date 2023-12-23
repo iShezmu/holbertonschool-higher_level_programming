@@ -9,7 +9,7 @@ Test:
     My name is Paulo Bravo
 
     >>> say_my_name("John")
-    My name is John
+    My name is John 
 
     >>> say_my_name(12, "White")
     Traceback (most recent call last):
