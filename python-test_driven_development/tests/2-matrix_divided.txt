@@ -1,4 +1,4 @@
-# Test Cases for add_integer function
+# Test Cases for matrix_divided function
 
 >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
 
