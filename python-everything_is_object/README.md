@@ -41,3 +41,8 @@
 
 *   13-answer.txt
     - What do these 3 lines print?
+
+*   14-answer.txt
+    - What does this script print?
+
+
