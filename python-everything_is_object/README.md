@@ -23,3 +23,6 @@
 
 *   7-answer.txt
     - What do these 3 lines print?
+
+*   8-answer.txt
+    - What do these 3 lines print?
