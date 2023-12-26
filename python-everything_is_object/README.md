@@ -38,3 +38,6 @@
 
 *   12-answer.txt
     - What do these 3 lines print?
+
+*   13-answer.txt
+    - What do these 3 lines print?
