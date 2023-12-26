@@ -29,3 +29,6 @@
 
 *   9-answer.txt
     - What do these 3 lines print?
+
+*   10-answer.txt
+    - What do these 3 lines print?
