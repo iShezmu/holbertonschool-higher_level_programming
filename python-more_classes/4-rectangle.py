@@ -21,12 +21,7 @@ class Rectangle:
         of a Rectangle instance, filled with the '#' character"""
         if self.__height == 0 or self.__width == 0:
             return ''
-        rec_str = ''
-        for i in range(self.__height):
-            for j in range(self.__width):
-                rec_str += '#'
-            rec_str += '\n'
-        return rec_str[:-1]
+        return '\n'.join('#' * self.__width for _ in range(self.__height))
 
     def __repr__(self):
         """Return a string representation of a Rectangle 
@@ -47,9 +42,10 @@ class Rectangle:
         """
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
-        if value < 0:
+        elif value < 0:
             raise ValueError("width must be >= 0")
-        self.__width = value
+        else:
+            self.__width = value
 
     @property
     def height(self):
@@ -64,9 +60,10 @@ class Rectangle:
         """
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
-        if value < 0:
+        elif value < 0:
             raise ValueError("height must be >= 0")
-        self.__height = value
+        else:
+            self.__height = value
 
     def area(self):
         """Calculates the area of a Rectangle instance
@@ -80,6 +77,8 @@ class Rectangle:
         Returns:
             Perimeter of the rectangle, given by 2 * (height + width)
         """
-        if self.__height == 0 or self.__width == 0:
-            return 0
-        return 2 * (self.__width + self.__height)
+        if self.__width == 0 or self.__height == 0:
+            perimeter = 0
+        else:
+            perimeter = 2 * (self.__width + self.__height)
+        return perimeter
