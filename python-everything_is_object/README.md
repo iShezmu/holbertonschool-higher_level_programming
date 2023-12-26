@@ -50,3 +50,6 @@
 
 *   16-answer.txt
     - What does this script print?
+
+*   17-answer.txt
+    - What does this script print?
