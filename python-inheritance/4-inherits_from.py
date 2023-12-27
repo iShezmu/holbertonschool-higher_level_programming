@@ -1,4 +1,4 @@
-#!/urs/bin/python3
+#!/usr/bin/python3
 """function inherits_from
 funct that return true if object is an instance of a clas that
 inherited from specified class"""
