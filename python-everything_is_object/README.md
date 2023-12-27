@@ -68,3 +68,6 @@
 
 *   21-answer.txt
     - Is a a tuple? Answer with Yes or No.
+
+*   22-answer.txt
+    - Is a a tuple? Answer with Yes or No.
