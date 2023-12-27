@@ -62,3 +62,6 @@
       - The input list can contain any type of objects
       - Your file should be maximum 3-line long (no documentation needed)
       - You are not allowed to import any module
+
+*   20-answer.txt
+    - Is a a tuple? Answer with Yes or No.
