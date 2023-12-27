@@ -77,3 +77,6 @@
 
 *   24-answer.txt
     - What does this script print?
+
+*   25-answer.txt
+    - What does this script print?
