@@ -1,35 +1,27 @@
 #!/usr/bin/python3
-"""
-square Class
-"""
 
+"""Rectangle class"""
 Rectangle = __import__('9-rectangle').Rectangle
 
 
+"""Square class"""
+
+
 class Square(Rectangle):
-    """Represents a square
-    Private instance attribute size
-    Public method area()
-    Inherits from Rectangle
-    """
-
+    """Represents a square that inherits from Rectangle."""
     def __init__(self, size):
-        """Initializes a Square
-
-        Args:
-            - size: size of the square
         """
-
+        Initializes a Square class
+        validating size value
+        """
         self.integer_validation("size", size)
-        super().__init__(size, size)
         self.__size = size
-
-    def __str__(self):
-        return str("[Square] {}/{}".format(self.__size, self.__size))
+        super().__init__(self.__size, self.__size)
 
     def area(self):
-        """Computes the area of a Square instance
-        Ovewrites the area() method from Rectangle
-        """
+        """Computes the area of a Square."""
+        return super().area()
 
-        return self.__size ** 2
+    def __str__(self):
+        """Return a string representation of the instance"""
+        return f"[Square] {self.__size}/{self-size}"
