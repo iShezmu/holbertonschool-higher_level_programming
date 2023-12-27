@@ -86,3 +86,6 @@
 
 *   27-answer.txt
     - Will the last line of this script print 139926795932424? Answer with Yes or No.
+
+*   28-answer.txt
+    - Will the last line of this script print 139926795932424? Answer with Yes or No.
