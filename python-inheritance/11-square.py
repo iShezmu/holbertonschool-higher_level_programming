@@ -8,13 +8,13 @@ Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
-    """Represents a square that inherits from Rectangle."""
+    """Represents a square that inherits from Rectangle"""
     def __init__(self, size):
         """
         Initializes a Square class
         validating size value
         """
-        self.integer_validation("size", size)
+        self.integer_validator("size", size)
         self.__size = size
         super().__init__(self.__size, self.__size)
 
