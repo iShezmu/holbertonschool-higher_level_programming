@@ -20,3 +20,9 @@
 
 *   5-script.js
     - Write a JavaScript script that updates the text of the `header` element to `New Header!!!` when the user clicks on the element with id `update_header`
+
+*   6-script.js
+    - Write a JavaScript script that fetches the character `name` from this URL: `https://swapi-api.hbtn.io/api/people/5/?format=json`
+      - The name must be displayed in the HTML tag with id `character`.
+      - You must use the `Fetch API`.
+      - You probably should read something about `usign Promises` later.
