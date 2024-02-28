@@ -44,3 +44,9 @@
       - The name must be displayed in the HTML tag `DIV#character`
       - You can't use `document.querySelector` to select the HTML tag
       - You must use the JQuery API
+
+*   8-script.js
+    - Write a JavaScript script that fetches and lists the `title` for all movies by using this `URL: https://swapi-api.hbtn.io/api/films/?format=json`
+      - All movie titles must be list in the HTML tag `UL#list_movies`
+      - You can't use `document.querySelector` to select the HTML tag
+      - You must use the JQuery API
